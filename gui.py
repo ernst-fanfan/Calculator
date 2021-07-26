@@ -72,7 +72,6 @@ def is_closed(event):
 
 def update_display(window, view):
     window["-DISPLAY-"].update(view)
-    return view
 
 
 
