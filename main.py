@@ -6,7 +6,7 @@ import gui as g
 from operations import Operations
 
 # initializing
-EVENT_LIST = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "/", "-", "+", "x"]
+EVENT_LIST = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "/", "-", "+", "x", "AC", "=", "."]
 
 
 # init gui
@@ -22,7 +22,8 @@ while True:
 
     # event processor
     if event in EVENT_LIST:
-        VIEW = background_processes.update_view(event)
+        update = background_processes.update_view(event)
+        VIEW = update if update is not None else VIEW
         g.update_display(WINDOW, VIEW)
 
 WINDOW.close()
