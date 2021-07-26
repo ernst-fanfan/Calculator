@@ -1,31 +1,44 @@
-#shya 
+# shya
 
-def onebutton ():
+def onebutton():
     return 1
 
-def twobutton ():
+
+def twobutton():
     return 2
 
-def threebutton ():
+
+def threebutton():
     return 3
 
-def fourbutton ():
+
+def fourbutton():
     return 4
 
-def fivebutton ():
+
+def fivebutton():
     return 5
 
-def sixbutton ():
-    return 6 
 
-def sevenbutton ():
-    return 7 
+def sixbutton():
+    return 6
 
-def eightbutton ():
+
+def sevenbutton():
+    return 7
+
+
+def eightbutton():
     return 8
 
-def ninebutton ():
+
+def ninebutton():
     return 9
+
 
 def zerobutton():
     return 0
+
+
+def period():
+    return None
